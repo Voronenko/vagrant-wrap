@@ -13,6 +13,7 @@ Approach assumes that bash shell is in path (for windows environment it is locat
 5.  Register project you want to wrap into .projmodules file.  Syntax of the file is identical to .gitmodules format. Difference it - that wrapped project is not installed as a git submodule, but as fully independent project. Note - you have way to work with multiple projects/sites on the same vagrant box, if needed.
 6.  Initialize .projmodules  with running init.sh in the project root
 7.  I often use local folder to keep set of files I need to overwrite in original solution to make it run on a vagrant (usually pathes, DB credentials, etc)
+8.  Feel free to commit your IDE related configs to parent repository (for example, I commit core settings from JetBrains IDea dev environment. In this way I have the same settings regardless of PC I work on)
 
 
 
