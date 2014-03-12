@@ -1,7 +1,7 @@
 #Cooking steps
 Assume you have some 3rd party project repository you want to work on. For some reasons it does not allow commiting development specific data into project. This repoository provides approach to 'wrap' external repository into your own development environment.
 
-Approach assumes that you use Vagrant dev environment (with berkshelf plugin installed).
+Approach assumes that you use Vagrant dev environment (with berkshelf plugin installed). Important: check following article about future of the vagrant-berkshelf plugin [https://sethvargo.com/the-future-of-vagrant-berkshelf/](https://sethvargo.com/the-future-of-vagrant-berkshelf/)
 
 Approach assumes that bash shell is in path (for windows environment it is located in msysgit bin folder)
 
@@ -15,6 +15,23 @@ Approach assumes that bash shell is in path (for windows environment it is locat
 7.  I often use local folder to keep set of files I need to overwrite in original solution to make it run on a vagrant (usually pathes, DB credentials, etc)
 8.  Feel free to commit your IDE related configs to parent repository (for example, I commit core settings from JetBrains IDea dev environment. In this way I have the same settings regardless of PC I work on)
 
-
-
 ## Enjoy!
+
+
+
+#Linked projects: #
+
+Interested in pure Chef template?
+See [https://github.com/Voronenko/chef-developer_bootstrap](https://github.com/Voronenko/chef-developer_bootstrap)
+
+Interested in using developer box Chef recipes in your own cookbooks?
+See [https://github.com/Voronenko/chef-developer_recipes](https://github.com/Voronenko/chef-developer_recipes)
+
+Interested in building your devbox on top of Vagrant + vagrant-berkshelf plugin?
+See [https://github.com/Voronenko/vagrant-wrap](https://github.com/Voronenko/vagrant-wrap)
+
+
+Note: see following article about future of the vagrant-berkshelf plugin [https://sethvargo.com/the-future-of-vagrant-berkshelf/](https://sethvargo.com/the-future-of-vagrant-berkshelf/)
+
+Interested in building your devbox on top of Vagrant + test-kitchen?
+See [https://github.com/Voronenko/lamp-kitchen](https://github.com/Voronenko/lamp-kitchen) 
